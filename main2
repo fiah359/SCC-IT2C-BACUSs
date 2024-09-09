@@ -1,0 +1,89 @@
+
+package accounts;
+
+import java.util.Scanner;
+import static jdk.nashorn.tools.ShellFunctions.input;
+
+
+public class ACCOUNTS {
+
+    
+  
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+//        Account account = new Account(1, "firstname", "lastname", "email", "username", "password");
+//        account.displayAccountInfo();
+//        
+//         System.out.println("id: ");
+//         sc.nextLine();
+//        System.out.println("first name: ");
+//         sc.nextLine();
+//        System.out.println("last name: ");
+//         sc.nextLine();
+//        System.out.println("email: ");
+//         sc.nextLine();
+//        System.out.println("username: ");
+//         sc.nextLine();
+//        System.out.println("password: ");
+//         sc.nextLine();
+//        System.out.println("-----------------------");
+//       
+//salary salary = new salary();
+//salary.addSalary(101, " fiah", 20.0, 20,100.0);
+//salary.getSalary();
+
+
+//salariess salaries = new salariess();
+//salaries.addsalaries(101, "fiah", 60.0, 35,150.0);
+//salaries.getsalaries();
+ 
+//grades[] gr = new grades [100];
+//System.out.println("Enter no. of students: ");
+//        int nums = sc.nextInt();
+////        
+//        for (int i=0; i< nums; i++){
+//            
+//            System.out.println("Enter details of student "+(i+1)+":");
+//            
+//            System.out.print("ID:");
+//            int id = sc.nextInt();
+//            System.out.print("Name:");
+//            String name = sc.next();
+//            System.out.print("Prelim:");
+//            double pr = sc.nextDouble();
+//            System.out.print("Midterm:");
+//            double md = sc.nextDouble();
+//             System.out.print("Prefinal:");
+//             double pf = sc.nextDouble();
+//            System.out.print("Final:");
+//            double fn = sc.nextDouble();
+//            
+//            gr[i] = new grades();
+//            gr[i].addGrades(id, name, pr, md, pf, fn);
+//        }
+//        
+//        for(int i=0; i< nums; i++){
+//            gr[i].viewGrades();
+                    
+accountss account = new accountss();
+account.addAccounts(01, "fiah", "belt", "fiahbacus@gmail.com",   "fiyah", "password123");
+account.viewAccounts();
+
+
+//System.out.println("id: \n");
+//          sc.nextLine();
+//        System.out.println("first name: ");
+//         sc.nextLine();
+//        System.out.println("last name: ");
+//         sc.nextLine();
+//        System.out.println("email: ");
+//         sc.nextLine();
+//        System.out.println("username: ");
+//         sc.nextLine();
+//        System.out.println("password: ");
+//         sc.nextLine();
+        }
+}
+
+    
+
