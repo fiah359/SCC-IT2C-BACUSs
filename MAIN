@@ -65,9 +65,9 @@ public class ACCOUNTS {
 //        for(int i=0; i< nums; i++){
 //            gr[i].viewGrades();
                     
-accountss account = new accountss();
-account.addAccounts(01, "fiah", "belt", "fiahbacus@gmail.com",   "fiyah", "password123");
-account.viewAccounts();
+//accountss account = new accountss();
+//account.addAccounts(01, "fiah", "belt", "fiahbacus@gmail.com",   "fiyah", "password123");
+//account.viewAccounts();
 
 
 //System.out.println("id: \n");
@@ -82,8 +82,24 @@ account.viewAccounts();
 //         sc.nextLine();
 //        System.out.println("password: ");
 //         sc.nextLine();
+
+//grades gr = new  grades();
+//        gr.addGrades(1011, "fiah", 1.2, 1.4, 1.3, 1.2 );
+//        gr.viewGrades();
+//        
+        
+Netpayy np = new Netpayy();
+np.getPay();
+//
+//product pr = new product();
+//pr.addProduct(10011, "Soap", 20, 30, 20.00);
+//pr.viewProduct();
+
+
+
         }
 }
+
 
     
 
