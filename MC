@@ -2,7 +2,7 @@
 package accounts;
 
 import java.util.Scanner;
-import static jdk.nashorn.tools.ShellFunctions.input;
+
 
 
 public class ACCOUNTS {
@@ -88,15 +88,15 @@ public class ACCOUNTS {
 //        gr.viewGrades();
 //        
         
-Netpayy np = new Netpayy();
-np.getPay();
+//Netpayy np = new Netpayy();
+//np.getPay();
 //
 //product pr = new product();
 //pr.addProduct(10011, "Soap", 20, 30, 20.00);
 //pr.viewProduct();
 
-
-
+Products prod = new Products();
+prod.viewProducts();
         }
 }
 
